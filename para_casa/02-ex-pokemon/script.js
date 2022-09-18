@@ -31,4 +31,33 @@ const data = [
     }
 ]
 
-// FAÇA O EXERCÍCIO ABAIXO
+// FAÇA O EXERCÍCIO ABAIXO o codigo deverá retornar com o nome, descrição e o tipo de cada pokemón
+
+console.log('***************** Nomes dos Pokémons ***********')
+for (let i = 0; i < data.length; i++) {
+    let nomePokemon = data[i]
+    console.log(nomePokemon.name)
+}
+console.log('-----------------fim---------------------')
+console.log('__________________________________________________')
+
+
+console.log('************** Descrições dos Pokémons ***********')
+for (let i = 0; i < data.length; i++) {
+    let nomePokemon = data[i]
+    let descPokemon = data[i]
+    console.log(nomePokemon.name)
+    console.log('Descrição: ' , descPokemon.description)
+}
+
+console.log('__________________________________________________')
+
+
+console.log('******************* Tipo dos Pokémons ************')
+for (let i = 0; i < data.length; i++) {
+    let nomePokemon = data[i]
+    let tipoPokemon = data[i]
+    console.log(nomePokemon.name)
+    console.log('Do tipo ', tipoPokemon.types)
+}
+console.log('_____________________fim___________________________')

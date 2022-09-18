@@ -1,0 +1,15 @@
+{
+  "name": "01-ex-ghibli",
+  "version": "1.0.0",
+  "description": "Exercicio de API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "author": "Nilva Pires",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
